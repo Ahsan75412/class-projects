@@ -2,7 +2,7 @@ import React from 'react';
 import './Student.css';
 
 const Student = ({student}) => {
-    const {_id , name ,img , passing_year, batch, phone ,profession , email,classId, address  } = student;
+    const { name ,img , passing_year, batch, phone ,profession , email,classId, address  } = student;
 
     return (
         <div className='student'>
